@@ -6,10 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping List</title>
   <link rel="shortcut icon" href="shopping-bag.png" type="image/x-icon">
+  <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-
+  <header>
+    <span class="title-text text">Shopping List</span>
+    <nav>
+      <ul>
+        <li class="text">Home</li>
+        <li class="text">List</li>
+        <li class="text">About</li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <button class="minus-button">-</button>
+    <span class="1st-section-text text">2/3 purchased</span>
+  </section>
+  <form>
+    <fieldset>
+      <legend class="form-text text">Add Items</legend>
+      <label for="item-name" class="text">Item name:</label>
+      <input type="text" id="item-name">
+      <label for="item-price" class="text">Price:</label>
+      <input type="text" id="item-price">
+      <input type="submit" id="add-items-button" value="Add" class="add-button text">
+    </fieldset>
+  </form>
 </body>
 
 </html>
