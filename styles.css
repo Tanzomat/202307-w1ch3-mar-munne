@@ -10,20 +10,45 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 2rem;
 }
 
 header {
   background-color: rgb(39, 153, 137);
+  padding: 1.8rem;
 }
 
 section {
   background-color: rgb(68, 160, 128);
+  padding: 1.8rem;
 }
 
 fieldset {
   background-color: rgb(255, 200, 69);
+  padding: 1.8rem;
 }
 
 ul {
   list-style-type: none;
+}
+
+.title-text {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-text {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.first-section-text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.form-text {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
