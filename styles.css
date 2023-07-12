@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(39, 153, 137);
+}
+
+section {
+  background-color: rgb(68, 160, 128);
+}
+
+fieldset {
+  background-color: rgb(255, 200, 69);
+}
+
+ul {
+  list-style-type: none;
+}
