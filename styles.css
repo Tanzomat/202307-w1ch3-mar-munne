@@ -6,6 +6,12 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: rgb(39, 153, 137);
 }
